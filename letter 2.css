@@ -67,7 +67,7 @@
 
 .stamp-left {
   /* Position on top-left of the envelope */
-  transform: translateX(-122px) translateY(70px) rotate(12deg);
+  transform: translateX(-122px) translateY(50px) rotate(12deg);
   background-image: url("kissankello.jpg");
 }
 
@@ -75,7 +75,7 @@
 .open + .stamp + .stamp-left,
 .envlope-wrapper.open .stamp-left {
   opacity: 0;
-  transform: translateX(-144px) translateY(70px) rotate(12deg) rotateX(85deg);
+  transform: translateX(-144px) translateY(50px) rotate(12deg) rotateX(85deg);
   transition: opacity 0.15s ease 0.1s, transform 0.35s ease 0.1s;
 }
 
